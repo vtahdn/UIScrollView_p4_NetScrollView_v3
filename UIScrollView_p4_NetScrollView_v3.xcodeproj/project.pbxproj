@@ -14,6 +14,13 @@
 		52E1C6E8213A55AD00345D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C6E6213A55AD00345D8A /* LaunchScreen.storyboard */; };
 		52E1C6F3213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1C6F2213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3Tests.swift */; };
 		52E1C6FE213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1C6FD213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3UITests.swift */; };
+		52E1C710213A55D700345D8A /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C70E213A55D700345D8A /* right.jpg */; };
+		52E1C711213A55D700345D8A /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C70F213A55D700345D8A /* left.jpg */; };
+		52E1C715213A55DE00345D8A /* Linh_Ka_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C712213A55DE00345D8A /* Linh_Ka_02.jpg */; };
+		52E1C716213A55DE00345D8A /* Linh_Ka_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C713213A55DE00345D8A /* Linh_Ka_03.jpg */; };
+		52E1C717213A55DE00345D8A /* Linh_Ka_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E1C714213A55DE00345D8A /* Linh_Ka_01.jpg */; };
+		52E1C719213A55FA00345D8A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1C718213A55FA00345D8A /* ScrollView.swift */; };
+		52E1C71B213A561200345D8A /* ListImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E1C71A213A561200345D8A /* ListImages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		52E1C6F9213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIScrollView_p4_NetScrollView_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E1C6FD213A55AE00345D8A /* UIScrollView_p4_NetScrollView_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView_p4_NetScrollView_v3UITests.swift; sourceTree = "<group>"; };
 		52E1C6FF213A55AE00345D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E1C70E213A55D700345D8A /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		52E1C70F213A55D700345D8A /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		52E1C712213A55DE00345D8A /* Linh_Ka_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Linh_Ka_02.jpg; sourceTree = "<group>"; };
+		52E1C713213A55DE00345D8A /* Linh_Ka_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Linh_Ka_03.jpg; sourceTree = "<group>"; };
+		52E1C714213A55DE00345D8A /* Linh_Ka_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Linh_Ka_01.jpg; sourceTree = "<group>"; };
+		52E1C718213A55FA00345D8A /* ScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		52E1C71A213A561200345D8A /* ListImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListImages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,11 @@
 		52E1C6DC213A55AD00345D8A /* UIScrollView_p4_NetScrollView_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				52E1C70B213A55B600345D8A /* Resource */,
 				52E1C6DD213A55AD00345D8A /* AppDelegate.swift */,
 				52E1C6DF213A55AD00345D8A /* ViewController.swift */,
+				52E1C718213A55FA00345D8A /* ScrollView.swift */,
+				52E1C71A213A561200345D8A /* ListImages.swift */,
 				52E1C6E1213A55AD00345D8A /* Main.storyboard */,
 				52E1C6E4213A55AD00345D8A /* Assets.xcassets */,
 				52E1C6E6213A55AD00345D8A /* LaunchScreen.storyboard */,
@@ -123,6 +140,34 @@
 				52E1C6FF213A55AE00345D8A /* Info.plist */,
 			);
 			path = UIScrollView_p4_NetScrollView_v3UITests;
+			sourceTree = "<group>";
+		};
+		52E1C70B213A55B600345D8A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				52E1C70D213A55C400345D8A /* Icon */,
+				52E1C70C213A55BF00345D8A /* Img */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		52E1C70C213A55BF00345D8A /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				52E1C714213A55DE00345D8A /* Linh_Ka_01.jpg */,
+				52E1C712213A55DE00345D8A /* Linh_Ka_02.jpg */,
+				52E1C713213A55DE00345D8A /* Linh_Ka_03.jpg */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		52E1C70D213A55C400345D8A /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				52E1C70E213A55D700345D8A /* right.jpg */,
+				52E1C70F213A55D700345D8A /* left.jpg */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E1C6E8213A55AD00345D8A /* LaunchScreen.storyboard in Resources */,
+				52E1C711213A55D700345D8A /* left.jpg in Resources */,
 				52E1C6E5213A55AD00345D8A /* Assets.xcassets in Resources */,
+				52E1C717213A55DE00345D8A /* Linh_Ka_01.jpg in Resources */,
+				52E1C716213A55DE00345D8A /* Linh_Ka_03.jpg in Resources */,
+				52E1C710213A55D700345D8A /* right.jpg in Resources */,
+				52E1C715213A55DE00345D8A /* Linh_Ka_02.jpg in Resources */,
 				52E1C6E3213A55AD00345D8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E1C6E0213A55AD00345D8A /* ViewController.swift in Sources */,
+				52E1C71B213A561200345D8A /* ListImages.swift in Sources */,
 				52E1C6DE213A55AD00345D8A /* AppDelegate.swift in Sources */,
+				52E1C719213A55FA00345D8A /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
